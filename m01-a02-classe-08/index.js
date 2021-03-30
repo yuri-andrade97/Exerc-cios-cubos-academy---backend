@@ -1,6 +1,8 @@
 const dinheiroQueSobrou = 80;
 const valorTenis = 129.99;
 
+
+
 const dinheiroQueSobrouEmPorcentagem = (dinheiroQueSobrou * 100) / valorTenis;
 
 console.log(dinheiroQueSobrouEmPorcentagem);
