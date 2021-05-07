@@ -1,0 +1,210 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#principal {
+    min-height: 100vh;
+    background-color: #F5F5F5;
+}
+
+.corDeFundo {
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* BArra de navegação */
+
+header {
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    width: 80vw;
+}
+
+.navegacao ul {
+    display: flex;
+    list-style: none;
+    width: 233px;
+    justify-content: space-between;
+
+}
+
+.navegacao ul li a {
+    all: unset;
+    color: black;
+    cursor: pointer;
+}
+
+/* FIM BARRA DE NAVEGAÇÃO */
+
+
+/* INICIO CONTEUDO PRINCIPAL */
+main {
+    width: 1160px;
+    margin: 26px 110px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.conteudo-principal {
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+section {
+    width: 730px;
+    padding: 5px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+section .titulo {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin-left: 20px;
+}
+
+section h3 {
+    font-size: 24px;
+    line-height: 32,68px;
+    margin-bottom: 5px;
+}
+
+section span {
+    color: #929292;
+    font-size: 12px;
+    margin-bottom: 15px;
+
+}
+
+section img {
+    width: 735px;
+}
+
+section .paragrafo {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 24px;
+    font-size: 14px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    all: unset;
+    border: 1px solid #FE0078;
+    border-radius: 50px;
+    width: 154px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+button a {
+    text-decoration: none;
+    color: #222
+}
+
+
+/* FIM CONTEUDO PRINCIPAL*/
+
+/* Barra lateral*/
+aside {
+    width: 380px;
+    height: 1396px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+aside input {
+    all: unset;
+    width: 340px;
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    margin: 20px 20px 4px 20px;
+    padding: 10px;
+}
+
+.categoria {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 0 10px 0 11px;
+    
+}
+
+.borda-left {
+    border-left: 2px solid #FE0078;
+    padding: 8px;
+}
+
+.categoria h3, .anuncio h3 {
+    font-size: 18px;
+    
+}
+
+.categoria ul {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    padding: 25px 5px;
+    list-style: none;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+.anuncio {
+    height: 757px;
+    margin: 0 10px 0 11px;
+    display: flex;
+    flex-direction: column;
+}
+
+.publicidades {
+    background-color: #f2f2f2;
+    margin: 32px 20px;
+    width: 340px;
+    height: 240px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+
+
+footer {
+    min-width: 100vw;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    flex-grow: 1;
+}
+
